@@ -4,20 +4,24 @@ scratchpad
 디지노리:연습장:
 
 [git commant]
+
     $ git remote set-url origin git@github.com:diginori/scratchpad.git ; git status ; git add ./ ; 
     $ git commit -a -m "처음처럼" ; git push origin
     
 
 [npm install]
+
     $ npm install express@2.2.0
     $ npm install socket.io@0.8.2
     
 [dir]
+
     node_modules
     public
      +-h
 
 [참조]
+
     원본 http://mudchobo.tistory.com/525 에서 소스코드를 참조함.
     express configure 을 이용한 public 폴더 참조 http://aproxacs.me/article/node-express-web-framework
     WebAudio 는 http://webaudio-io2012.appspot.com 를 보고 http://www.html5rocks.com/en/tutorials/webaudio/games 의 SOUND EFFECTS(gun.js & buffer-loader.js) 부분을 참조함
